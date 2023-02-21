@@ -1,0 +1,11 @@
+﻿@page
+@model Test.Pages.Issues.IssueOverviewModel
+
+<a class="float-start btn btn-primary" asp-page="/Issues/AddNewIssue"> + AddNew Issue</a>
+
+<a class="btn btn-secondary float-end" asp-page="/Issues/ClosedIssues">Closed Issues</a>
+
+@if(Model.activeIssues.Count == 0)
+{
+    <h5 class="text-center">No Active Issues To Display</h5>
+}

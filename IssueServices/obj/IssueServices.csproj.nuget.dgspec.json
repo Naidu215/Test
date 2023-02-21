@@ -1,0 +1,122 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\kondala.dalinaidu\\source\\repos\\Test\\IssueServices\\IssueServices.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\kondala.dalinaidu\\source\\repos\\Test\\IssueModel\\IssueModel.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kondala.dalinaidu\\source\\repos\\Test\\IssueModel\\IssueModel.csproj",
+        "projectName": "IssueModel",
+        "projectPath": "C:\\Users\\kondala.dalinaidu\\source\\repos\\Test\\IssueModel\\IssueModel.csproj",
+        "packagesPath": "C:\\Users\\kondala.dalinaidu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kondala.dalinaidu\\source\\repos\\Test\\IssueModel\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kondala.dalinaidu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\kondala.dalinaidu\\source\\repos\\Test\\IssueServices\\IssueServices.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\kondala.dalinaidu\\source\\repos\\Test\\IssueServices\\IssueServices.csproj",
+        "projectName": "IssueServices",
+        "projectPath": "C:\\Users\\kondala.dalinaidu\\source\\repos\\Test\\IssueServices\\IssueServices.csproj",
+        "packagesPath": "C:\\Users\\kondala.dalinaidu\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\kondala.dalinaidu\\source\\repos\\Test\\IssueServices\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\kondala.dalinaidu\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net6.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {
+              "C:\\Users\\kondala.dalinaidu\\source\\repos\\Test\\IssueModel\\IssueModel.csproj": {
+                "projectPath": "C:\\Users\\kondala.dalinaidu\\source\\repos\\Test\\IssueModel\\IssueModel.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

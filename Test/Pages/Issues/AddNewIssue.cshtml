@@ -1,0 +1,56 @@
+﻿@page
+@namespace IssueModel
+@model Test.Pages.Issues.AddNewIssueModel
+
+<div class="mt-5">
+
+    <h3 class="text-center" style="color:chocolate">AddNew Issue</h3>
+
+    <form method="post">
+
+        <div class="form-group">
+
+            <label class="form-label" asp-for="@Model.addNewIssue.Name">Name</label>
+            <input class="form-control" asp-for="@Model.addNewIssue.Name" type="text" />
+            <span class="text text-danger" asp-validation-for="@Model.addNewIssue.Name"></span>
+
+        </div>
+        <div class="form-group">
+
+            <label class="form-label" asp-for="@Model.addNewIssue.Title">Title</label>
+            <input class="form-control" asp-for="@Model.addNewIssue.Title" type="text"/>
+            <span class="text text-danger" asp-validation-for="@Model.addNewIssue.Title"></span>
+
+        </div>
+
+        <div class="form-group">
+
+            <label class="form-label" asp-for="@Model.addNewIssue.Description">Description</label>
+            <textarea class="form-control" asp-for="@Model.addNewIssue.Description" rows="3"> </textarea>
+            <span class="text text-danger" asp-validation-for="@Model.addNewIssue.Description"></span>
+
+        </div>
+
+        <div class="form-group">
+
+            <label class="form-label" asp-for="@Model.addNewIssue.Issue"></label>
+            <select class="form-select" asp-for="@Model.addNewIssue.Issue" 
+            asp-items="Html.GetEnumSelectList<IssueType>()"></select>
+
+        </div>
+
+        <div class="form-group">
+
+            <label class="form-label" asp-for="@Model.addNewIssue.Priority"></label>
+            <select class="form-select" asp-for="@Model.addNewIssue.Priority"
+                    asp-items="Html.GetEnumSelectList<Priority>()"></select>
+
+        </div>
+
+        <br />
+
+        <button class="btn btn-primary offset-4 col-md-4">Submit</button>
+        
+    </form>
+
+</div>
